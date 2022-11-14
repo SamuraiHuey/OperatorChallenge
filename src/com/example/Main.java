@@ -6,9 +6,11 @@ public class Main {
         double secondValue = 80.00d;
 
         double multipliedSum = (firstValue + secondValue) * 100.00d;
-
+        System.out.println(multipliedSum);
+        
         double modulusSum = multipliedSum % 40.00d;
-
+        System.out.println(modulusSum
+        );
         boolean remainderZero = (modulusSum == 0) ? true:false;
 
         System.out.println(remainderZero);
